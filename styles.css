@@ -228,23 +228,40 @@ body{
 }
 
 .mySkills .mySkillsInfo button{
-    background-color: #DDD;
+    background-color: none;
     color:green;
     border:2px solid green;
+    padding: 10px;
 }
 
 
 .mySkills .progress{
-    float:right;
+    float:left;
     width:60%;
 
 }
 
+.mySkills .progress h3{
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+
+}
+
 .mySkills .progress div{
-    font-weight: bold;
-    font-size: 30px;
-    margin-left: 50px;
-    padding: 10px;
+    height: 25px;
+    background-color: #DDD;
+    margin: 10px;
+}
+
+.mySkills .progress span {
+    background-color: green ;
+    height: 25px;
+    display: block;  /*3shan l span asln inline*/
+    line-height: 25px;
+    text-align: right;
+    color: #FFF;
+
 }
 
 
@@ -265,6 +282,8 @@ body{
     background-color: #DDD;
     color:green;
     border:2px solid green;
+    margin: 20px;
+    padding: 10px;
 }
 
 
@@ -291,31 +310,50 @@ body{
 
 }
 
-.myEducation .educationRight button{
+.myEducation .educationRight span{
     float:left;
     background-color: green;
     color: white;
+    padding: 5px;
 }
 
-.myEducation .workLeft {
+/*end myEducation*/
+
+
+.horizontalLine hr{
+    margin-left:100px;
+    margin-right:100px;
+}
+
+
+/*Start myWorkExperience*/
+
+.myWorkExperience{
+    overflow:hidden;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.myWorkExperience .workLeft {
     float:left;
     width: 50%;
 
 }
 
-.myEducation .workRight{
+.myWorkExperience .workRight{
     float:right;
     width: 50%;
 
 }
-.myEducation .workRight button{
+
+.myWorkExperience .workRight span{
     float:left;
     background-color: green;
     color: white;
+    padding: 5px;
 }
 
-
-/*end myEducation*/
+/*End myWorkExperience*/
 
 
 /*start justStore*/
@@ -414,4 +452,19 @@ body{
 }
 
 /*end footer*/
+
+
+
+/* Start My Framework */
+
+.my-button{
+    background: none;
+    border : 3px solid #2DCC70;
+    padding: 10px 30px;
+    color :#2DCC70;
+}
+
+
+
+/* End My Framework */
 
